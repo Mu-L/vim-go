@@ -246,7 +246,7 @@ function! s:closeterm()
 
     let l:info = l:info[0]
 
-    if !get(l:info, 'terminal', 0) is 1
+    if get(l:info, 'terminal', 0) isnot 1
       return
     endif
 
