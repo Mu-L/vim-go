@@ -355,7 +355,7 @@ function! s:expandRunArgs(idx, val) abort
     return l:val
   endif
 
-  return fnamemodify(l:val, ':p')")
+  return fnamemodify(l:val, ':p')
 endfunction
 " ---------------------
 " | Vim job callbacks |
